@@ -244,7 +244,7 @@ def scrape_pl_fixtures() -> list[dict]:
                 "summary": f"\u26bd {summary}",
                 "start": ko,
                 "end": ko + timedelta(hours=2),
-                "url": "https://www.tottenhamhotspur.com/fixtures-and-results/",
+                "url": "https://www.tottenhamhotspur.com/fixtures/",
                 "category": "Football",
                 "note": "Premier League. " + RESTRICTION_NOTE,
             })
@@ -290,7 +290,7 @@ def scrape_football_data() -> list[dict]:
             "summary": f"\u26bd Tottenham Hotspur v {away}",
             "start": ko,
             "end": ko + timedelta(hours=2),
-            "url": "https://www.tottenhamhotspur.com/fixtures-and-results/",
+            "url": "https://www.tottenhamhotspur.com/fixtures/",
             "category": "Football",
             "note": f"{comp}. " + RESTRICTION_NOTE,
         })
