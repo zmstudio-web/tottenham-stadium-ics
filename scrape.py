@@ -155,10 +155,12 @@ def scrape_stadium_events() -> list[dict]:
         # fall back to consecutive days if the text can't be parsed.
         dates = _event_dates(page, s_dt, n_nights)
 
+        icon = _icon_for(title)
         eid = slug.split("/")[0]
         for d in dates:
             night_start = s_dt.replace(year=d.year, month=d.month, day=d.day)
-            label = title if len(dates) == 1 else f"{title} (night {dates.index(d)+1})"
+            base = f"{icon} {title}" if icon else title
+            label = base if len(dates) == 1 else f"{base} (night {dates.index(d)+1})"
             events.append({
                 "uid": f"stadium-{eid}-{d:%Y%m%d}",
                 "summary": label,
@@ -172,6 +174,19 @@ def scrape_stadium_events() -> list[dict]:
             })
             print(f"    - {d:%Y-%m-%d}  {label}")
     return events
+
+
+def _icon_for(title: str) -> str:
+    """Pick an emoji for a stadium event based on its title. Most non-football
+    events at the stadium are concerts, so that's the default."""
+    t = title.lower()
+    if any(k in t for k in ("boxing", "fight night", " vs ", "heavyweight")):
+        return "\U0001F94A"  # 🥊
+    if any(k in t for k in ("rugby", "nrl", "six nations")):
+        return "\U0001F3C9"  # 🏉
+    if any(k in t for k in ("comedy", "live nation presents:  comedy")):
+        return "\U0001F3AD"  # 🎭
+    return "\U0001F3B5"  # 🎵 default: concert/music
 
 
 _MONTHS = ("january february march april may june july august september "
