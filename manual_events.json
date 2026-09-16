@@ -1,0 +1,20 @@
+[
+  {
+    "uid": "nfl-london-2026-1",
+    "summary": "🏈 NFL London Game 1 (Colts v Commanders)",
+    "start": "2026-10-04T14:30:00+01:00",
+    "end": "2026-10-04T18:00:00+01:00",
+    "url": "https://www.tottenhamhotspurstadium.com/events/1069172/nfl-2026",
+    "category": "NFL",
+    "note": "NFL London Games 2026 - matchup/time provisional."
+  },
+  {
+    "uid": "nfl-london-2026-2",
+    "summary": "🏈 NFL London Game 2 (Eagles v Jaguars)",
+    "start": "2026-10-11T14:30:00+01:00",
+    "end": "2026-10-11T18:00:00+01:00",
+    "url": "https://www.tottenhamhotspurstadium.com/events/1069172/nfl-2026",
+    "category": "NFL",
+    "note": "NFL London Games 2026 - matchup/time provisional."
+  }
+]
