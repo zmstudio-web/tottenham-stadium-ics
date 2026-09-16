@@ -11,20 +11,42 @@
 <p>An auto-updating iCalendar feed of everything that fills the stadium &mdash;
 Spurs home fixtures, concerts, NFL &mdash; so you can see parking / road /
 Tube disruption around N17 coming.</p>
-<p><strong>Subscribe URL</strong> (add as a subscribed calendar, not an import):</p>
-<p><code id="u"></code></p>
+<p style="background:#fff3cd;border:1px solid #f0d68a;border-radius:6px;padding:.75rem 1rem">
+  <strong>Important:</strong> don't just click/open the .ics file &mdash; most
+  apps treat that as a one-off <em>import</em> (a static copy that never
+  updates). Use the <strong>webcal</strong> link or the "New Calendar
+  Subscription" flow below to get a live subscription instead.
+</p>
+<p><strong>Subscribe (webcal link &mdash; click this on Mac/iPhone):</strong></p>
+<p><a id="wc" style="font-weight:600"></a></p>
 <script>
-  var url = location.origin + location.pathname.replace(/index\.html$/, '') + 'tottenham_stadium_events.ics';
-  document.getElementById('u').textContent = url;
+  var https = location.origin + location.pathname.replace(/index\.html$/, '') + 'tottenham_stadium_events.ics';
+  var webcal = https.replace(/^https?:\/\//, 'webcal://');
+  document.getElementById('wc').textContent = webcal;
+  document.getElementById('wc').href = webcal;
 </script>
-<p><a id="dl">Download the .ics file</a></p>
-<script>document.getElementById('dl').href = document.getElementById('u').textContent;</script>
-<h2>Add it</h2>
+<p><strong>Plain URL</strong> (paste into "From URL" / "New Calendar Subscription" dialogs):</p>
+<p><code id="u"></code></p>
+<script>document.getElementById('u').textContent = https;</script>
+<p><a id="dl">Download the .ics file</a> (one-off import only)</p>
+<script>document.getElementById('dl').href = https;</script>
+<h2>Add it as a live subscription</h2>
 <ul>
-  <li><strong>iPhone/iPad:</strong> Settings &rarr; Calendar &rarr; Accounts &rarr;
-    Add Account &rarr; Other &rarr; Add Subscribed Calendar &rarr; paste the URL.</li>
-  <li><strong>Google Calendar:</strong> Other calendars &rarr; + &rarr; From URL &rarr; paste.</li>
-  <li><strong>macOS Calendar:</strong> File &rarr; New Calendar Subscription &rarr; paste.</li>
+  <li><strong>iPhone/iPad:</strong> Settings &rarr; Apps &rarr; Calendar &rarr; Accounts &rarr;
+    Add Account &rarr; Other &rarr; <em>Add Subscribed Calendar</em> &rarr; paste the plain URL.
+    (Tapping the webcal link above does this for you.)</li>
+  <li><strong>macOS Calendar:</strong> File &rarr; <em>New Calendar Subscription&hellip;</em> &rarr;
+    paste the plain URL &rarr; on the next screen set <strong>Location</strong> to
+    your iCloud account (not "On My Mac") so it syncs to all your devices, and set
+    <strong>Auto-refresh</strong> to "Every day". Do <em>not</em> just double-click the
+    .ics file &mdash; that imports a static copy instead.</li>
+  <li><strong>Google Calendar:</strong> Other calendars &rarr; + &rarr; <em>From URL</em> &rarr;
+    paste the plain URL.</li>
 </ul>
+<p style="color:#666;font-size:.9rem">Already imported a one-off copy by mistake? Delete
+that calendar (or the individual events) and re-add using the steps above &mdash; a
+subscribed calendar shows up as its own separate calendar named "Tottenham Hotspur
+Stadium events" in your calendar list, refreshes itself, and its events can't be
+edited individually.</p>
 <p style="color:#666;font-size:.9rem">Times for concerts are approximate. Always
 check official sources before relying on any entry.</p>
