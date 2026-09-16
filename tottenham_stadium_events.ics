@@ -10,7 +10,7 @@ X-PUBLISHED-TTL:PT12H
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 BEGIN:VEVENT
 UID:plfix-128972@spurs-stadium-calendar
-DTSTAMP:20260916T143604Z
+DTSTAMP:20260916T143941Z
 DTSTART:20260919T113000Z
 DTEND:20260919T133000Z
 SUMMARY:⚽ Tottenham Hotspur v Aston Villa
@@ -23,10 +23,12 @@ DESCRIPTION:Premier League. Haringey Event Day parking controls and road cl
  ays check official sources before relying on them.\n\nhttps://www.tottenha
  mhotspur.com/fixtures-and-results/
 CATEGORIES:Football
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
 END:VEVENT
 BEGIN:VEVENT
 UID:stadium-1070339-20260926@spurs-stadium-calendar
-DTSTAMP:20260916T143604Z
+DTSTAMP:20260916T143941Z
 DTSTART:20260926T180000Z
 DTEND:20260926T220000Z
 SUMMARY:BIGBANG
@@ -36,10 +38,12 @@ DESCRIPTION:Scraped from tottenhamhotspurstadium.com - exact start time is
  approximate.\n\nhttps://www.tottenhamhotspurstadium.com/events/1070339/big
  -bang
 CATEGORIES:Concert/Event
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
 END:VEVENT
 BEGIN:VEVENT
 UID:nfl-london-2026-1@spurs-stadium-calendar
-DTSTAMP:20260916T143604Z
+DTSTAMP:20260916T143941Z
 DTSTART:20261004T133000Z
 DTEND:20261004T170000Z
 SUMMARY:🏈 NFL London Game 1 (Colts v Commanders)
@@ -53,10 +57,12 @@ DESCRIPTION:NFL London Games 2026 - matchup/time provisional. Haringey Even
  g on them.\n\nhttps://www.tottenhamhotspurstadium.com/events/1069172/nfl-2
  026
 CATEGORIES:NFL
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
 END:VEVENT
 BEGIN:VEVENT
 UID:nfl-london-2026-2@spurs-stadium-calendar
-DTSTAMP:20260916T143604Z
+DTSTAMP:20260916T143941Z
 DTSTART:20261011T133000Z
 DTEND:20261011T170000Z
 SUMMARY:🏈 NFL London Game 2 (Eagles v Jaguars)
@@ -70,10 +76,12 @@ DESCRIPTION:NFL London Games 2026 - matchup/time provisional. Haringey Even
  g on them.\n\nhttps://www.tottenhamhotspurstadium.com/events/1069172/nfl-2
  026
 CATEGORIES:NFL
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
 END:VEVENT
 BEGIN:VEVENT
 UID:plfix-128992@spurs-stadium-calendar
-DTSTAMP:20260916T143604Z
+DTSTAMP:20260916T143941Z
 DTSTART:20261019T190000Z
 DTEND:20261019T210000Z
 SUMMARY:⚽ Tottenham Hotspur v Coventry City
@@ -86,10 +94,12 @@ DESCRIPTION:Premier League. Haringey Event Day parking controls and road cl
  ays check official sources before relying on them.\n\nhttps://www.tottenha
  mhotspur.com/fixtures-and-results/
 CATEGORIES:Football
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
 END:VEVENT
 BEGIN:VEVENT
 UID:plfix-129012@spurs-stadium-calendar
-DTSTAMP:20260916T143604Z
+DTSTAMP:20260916T143941Z
 DTSTART:20261031T173000Z
 DTEND:20261031T193000Z
 SUMMARY:⚽ Tottenham Hotspur v Crystal Palace
@@ -102,10 +112,12 @@ DESCRIPTION:Premier League. Haringey Event Day parking controls and road cl
  ays check official sources before relying on them.\n\nhttps://www.tottenha
  mhotspur.com/fixtures-and-results/
 CATEGORIES:Football
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
 END:VEVENT
 BEGIN:VEVENT
 UID:plfix-129032@spurs-stadium-calendar
-DTSTAMP:20260916T143604Z
+DTSTAMP:20260916T143941Z
 DTSTART:20261121T150000Z
 DTEND:20261121T170000Z
 SUMMARY:⚽ Tottenham Hotspur v Ipswich Town
@@ -118,10 +130,12 @@ DESCRIPTION:Premier League. Haringey Event Day parking controls and road cl
  ays check official sources before relying on them.\n\nhttps://www.tottenha
  mhotspur.com/fixtures-and-results/
 CATEGORIES:Football
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
 END:VEVENT
 BEGIN:VEVENT
 UID:plfix-129052@spurs-stadium-calendar
-DTSTAMP:20260916T143604Z
+DTSTAMP:20260916T143941Z
 DTSTART:20261202T200000Z
 DTEND:20261202T220000Z
 SUMMARY:⚽ Tottenham Hotspur v Fulham
@@ -134,10 +148,12 @@ DESCRIPTION:Premier League. Haringey Event Day parking controls and road cl
  ays check official sources before relying on them.\n\nhttps://www.tottenha
  mhotspur.com/fixtures-and-results/
 CATEGORIES:Football
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
 END:VEVENT
 BEGIN:VEVENT
 UID:plfix-129062@spurs-stadium-calendar
-DTSTAMP:20260916T143604Z
+DTSTAMP:20260916T143941Z
 DTSTART:20261205T150000Z
 DTEND:20261205T170000Z
 SUMMARY:⚽ Tottenham Hotspur v Arsenal
@@ -150,10 +166,12 @@ DESCRIPTION:Premier League. Haringey Event Day parking controls and road cl
  ays check official sources before relying on them.\n\nhttps://www.tottenha
  mhotspur.com/fixtures-and-results/
 CATEGORIES:Football
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
 END:VEVENT
 BEGIN:VEVENT
 UID:plfix-129092@spurs-stadium-calendar
-DTSTAMP:20260916T143604Z
+DTSTAMP:20260916T143941Z
 DTSTART:20261226T150000Z
 DTEND:20261226T170000Z
 SUMMARY:⚽ Tottenham Hotspur v Bournemouth
@@ -166,10 +184,12 @@ DESCRIPTION:Premier League. Haringey Event Day parking controls and road cl
  ays check official sources before relying on them.\n\nhttps://www.tottenha
  mhotspur.com/fixtures-and-results/
 CATEGORIES:Football
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
 END:VEVENT
 BEGIN:VEVENT
 UID:plfix-129102@spurs-stadium-calendar
-DTSTAMP:20260916T143604Z
+DTSTAMP:20260916T143941Z
 DTSTART:20261229T193000Z
 DTEND:20261229T213000Z
 SUMMARY:⚽ Tottenham Hotspur v Brighton & Hove Albion
@@ -182,10 +202,12 @@ DESCRIPTION:Premier League. Haringey Event Day parking controls and road cl
  ays check official sources before relying on them.\n\nhttps://www.tottenha
  mhotspur.com/fixtures-and-results/
 CATEGORIES:Football
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
 END:VEVENT
 BEGIN:VEVENT
 UID:plfix-129132@spurs-stadium-calendar
-DTSTAMP:20260916T143604Z
+DTSTAMP:20260916T143941Z
 DTSTART:20270116T150000Z
 DTEND:20270116T170000Z
 SUMMARY:⚽ Tottenham Hotspur v Leeds United
@@ -198,10 +220,12 @@ DESCRIPTION:Premier League. Haringey Event Day parking controls and road cl
  ays check official sources before relying on them.\n\nhttps://www.tottenha
  mhotspur.com/fixtures-and-results/
 CATEGORIES:Football
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
 END:VEVENT
 BEGIN:VEVENT
 UID:plfix-129152@spurs-stadium-calendar
-DTSTAMP:20260916T143604Z
+DTSTAMP:20260916T143941Z
 DTSTART:20270130T150000Z
 DTEND:20270130T170000Z
 SUMMARY:⚽ Tottenham Hotspur v Sunderland
@@ -214,10 +238,12 @@ DESCRIPTION:Premier League. Haringey Event Day parking controls and road cl
  ays check official sources before relying on them.\n\nhttps://www.tottenha
  mhotspur.com/fixtures-and-results/
 CATEGORIES:Football
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
 END:VEVENT
 BEGIN:VEVENT
 UID:plfix-129172@spurs-stadium-calendar
-DTSTAMP:20260916T143604Z
+DTSTAMP:20260916T143941Z
 DTSTART:20270210T200000Z
 DTEND:20270210T220000Z
 SUMMARY:⚽ Tottenham Hotspur v Manchester City
@@ -230,10 +256,12 @@ DESCRIPTION:Premier League. Haringey Event Day parking controls and road cl
  ays check official sources before relying on them.\n\nhttps://www.tottenha
  mhotspur.com/fixtures-and-results/
 CATEGORIES:Football
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
 END:VEVENT
 BEGIN:VEVENT
 UID:plfix-129192@spurs-stadium-calendar
-DTSTAMP:20260916T143604Z
+DTSTAMP:20260916T143941Z
 DTSTART:20270227T150000Z
 DTEND:20270227T170000Z
 SUMMARY:⚽ Tottenham Hotspur v Liverpool
@@ -246,10 +274,12 @@ DESCRIPTION:Premier League. Haringey Event Day parking controls and road cl
  ays check official sources before relying on them.\n\nhttps://www.tottenha
  mhotspur.com/fixtures-and-results/
 CATEGORIES:Football
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
 END:VEVENT
 BEGIN:VEVENT
 UID:plfix-129212@spurs-stadium-calendar
-DTSTAMP:20260916T143604Z
+DTSTAMP:20260916T143941Z
 DTSTART:20270313T150000Z
 DTEND:20270313T170000Z
 SUMMARY:⚽ Tottenham Hotspur v Nottingham Forest
@@ -262,10 +292,12 @@ DESCRIPTION:Premier League. Haringey Event Day parking controls and road cl
  ays check official sources before relying on them.\n\nhttps://www.tottenha
  mhotspur.com/fixtures-and-results/
 CATEGORIES:Football
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
 END:VEVENT
 BEGIN:VEVENT
 UID:plfix-129232@spurs-stadium-calendar
-DTSTAMP:20260916T143604Z
+DTSTAMP:20260916T143941Z
 DTSTART:20270410T140000Z
 DTEND:20270410T160000Z
 SUMMARY:⚽ Tottenham Hotspur v Brentford
@@ -278,10 +310,12 @@ DESCRIPTION:Premier League. Haringey Event Day parking controls and road cl
  ays check official sources before relying on them.\n\nhttps://www.tottenha
  mhotspur.com/fixtures-and-results/
 CATEGORIES:Football
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
 END:VEVENT
 BEGIN:VEVENT
 UID:plfix-129252@spurs-stadium-calendar
-DTSTAMP:20260916T143604Z
+DTSTAMP:20260916T143941Z
 DTSTART:20270424T140000Z
 DTEND:20270424T160000Z
 SUMMARY:⚽ Tottenham Hotspur v Hull City
@@ -294,10 +328,12 @@ DESCRIPTION:Premier League. Haringey Event Day parking controls and road cl
  ays check official sources before relying on them.\n\nhttps://www.tottenha
  mhotspur.com/fixtures-and-results/
 CATEGORIES:Football
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
 END:VEVENT
 BEGIN:VEVENT
 UID:plfix-129272@spurs-stadium-calendar
-DTSTAMP:20260916T143604Z
+DTSTAMP:20260916T143941Z
 DTSTART:20270508T140000Z
 DTEND:20270508T160000Z
 SUMMARY:⚽ Tottenham Hotspur v Chelsea
@@ -310,10 +346,12 @@ DESCRIPTION:Premier League. Haringey Event Day parking controls and road cl
  ays check official sources before relying on them.\n\nhttps://www.tottenha
  mhotspur.com/fixtures-and-results/
 CATEGORIES:Football
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
 END:VEVENT
 BEGIN:VEVENT
 UID:plfix-129292@spurs-stadium-calendar
-DTSTAMP:20260916T143604Z
+DTSTAMP:20260916T143941Z
 DTSTART:20270523T140000Z
 DTEND:20270523T160000Z
 SUMMARY:⚽ Tottenham Hotspur v Manchester United
@@ -326,10 +364,12 @@ DESCRIPTION:Premier League. Haringey Event Day parking controls and road cl
  ays check official sources before relying on them.\n\nhttps://www.tottenha
  mhotspur.com/fixtures-and-results/
 CATEGORIES:Football
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
 END:VEVENT
 BEGIN:VEVENT
 UID:stadium-1021367-20270706@spurs-stadium-calendar
-DTSTAMP:20260916T143604Z
+DTSTAMP:20260916T143941Z
 DTSTART:20270706T180000Z
 DTEND:20270706T220000Z
 SUMMARY:Karol G
@@ -339,5 +379,7 @@ DESCRIPTION:Scraped from tottenhamhotspurstadium.com - exact start time is
  approximate.\n\nhttps://www.tottenhamhotspurstadium.com/events/1021367/kar
  ol-g
 CATEGORIES:Concert/Event
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
 END:VEVENT
 END:VCALENDAR

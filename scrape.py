@@ -393,6 +393,9 @@ def to_ics(events: list[dict]) -> str:
             lines.append(f"URL:{ev['url']}")
         lines.append(f"DESCRIPTION:{esc(desc)}")
         lines.append(f"CATEGORIES:{esc(ev.get('category', 'Event'))}")
+        # Informational only: show as "free" (not busy) and never alarm.
+        lines.append("TRANSP:TRANSPARENT")
+        lines.append("X-MICROSOFT-CDO-BUSYSTATUS:FREE")
         lines.append("END:VEVENT")
     lines.append("END:VCALENDAR")
     return "\r\n".join(fold(l) for l in lines) + "\r\n"
